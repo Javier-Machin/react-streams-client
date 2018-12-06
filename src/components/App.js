@@ -7,12 +7,11 @@ import StreamList from './streams/StreamList';
 import StreamShow from './streams/StreamShow';
 import Header from './Header';
 
-// The parent div of the two routes could be a React.Fragment too
+// The parent div of the routes could be a React.Fragment too
 // Other routers are HashRouter(more flexible) and MemoryRouter
 const App = () => {
   return (
     <div className="ui container">
-      
       <BrowserRouter>
         <div>
           <Header />
